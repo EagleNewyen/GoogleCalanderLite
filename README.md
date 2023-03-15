@@ -6,7 +6,7 @@ Calendar-clone is an application that is able to perform basic functions taken f
 
 ## About
 
-Calendar-clone has basic features such as,
+It has basic features such as,
 * Saving/deleting events on a specifc date/time
 * Triggers a notification when that event is due
 * Adds the events to a cloud database, Firebase Firestore
