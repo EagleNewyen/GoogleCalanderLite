@@ -2,7 +2,7 @@
 
 ## Preface
 Calendar-clone is an application that is able to perform basic functions taken from bigger Calendar apps. <br>
-.
+
 
 ## About
 
