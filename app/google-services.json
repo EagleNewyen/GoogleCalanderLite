@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763131376022",
+    "project_id": "calanderapp-58d58",
+    "storage_bucket": "calanderapp-58d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763131376022:android:5d51fa969d370b191aedb7",
+        "android_client_info": {
+          "package_name": "com.example.calanderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763131376022-80j8h96oro9b5hj7savvfa5gs214572l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDecOuazPvoplg6DJw4DeA-XAGm98K1Wfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763131376022-80j8h96oro9b5hj7savvfa5gs214572l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

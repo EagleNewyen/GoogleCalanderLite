@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/calScreen">
+
+    <fragment
+        android:id="@+id/calScreen"
+        android:name="com.example.calanderapp.ui.CalScreen"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_cal_screen" >
+        <action
+            android:id="@+id/action_calScreen_to_reminderFrag"
+            app:destination="@id/reminderFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/reminderFrag"
+        android:name="com.example.calanderapp.ReminderFrag"
+        android:label="Reminders">
+        <argument
+            android:name="day"
+            app:argType="integer" />
+        <argument
+            android:name="month"
+            app:argType="integer" />
+        <argument
+            android:name="year"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_reminderFrag_to_calScreen"
+            app:destination="@id/calScreen" />
+    </fragment>
+</navigation>
