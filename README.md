@@ -7,7 +7,7 @@ Calendar-clone is an application with basic functions, essentially Google Calend
 ## About
 
 This app features,
-* Saving/deleting events on a specifc date/time
+* Saving/deleting events with date & time
 * Triggers a notification when that event is due
 * Adds the events to a cloud database, Firebase Firestore
 
