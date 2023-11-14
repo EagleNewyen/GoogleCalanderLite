@@ -1,7 +1,7 @@
 # Calander-clone
 
 ## Preface
-Calendar-clone is an application with basic functions, essentially Google Calendar lite. <br>
+A Calendar with basic functions, essentially Google Calendar lite. <br>
 
 
 ## About
